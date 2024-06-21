@@ -1,0 +1,31 @@
+.container-collab
+{
+    background-image: url('./images/collab.png');
+    background-size:cover;
+    width: 99%;
+    height: 315px;
+    border-radius: 50px;
+    margin: 6px;
+}
+.content
+{
+    padding-top: 4%;
+    text-align: center;
+    gap:5px;
+    letter-spacing: 1px;
+}
+.content h1
+{
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content img
+{
+    position: relative;
+    padding-right: 10px;
+}
+a
+{
+    text-decoration: none;
+}

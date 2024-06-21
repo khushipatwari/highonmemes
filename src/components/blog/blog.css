@@ -1,0 +1,52 @@
+.container-blog
+{
+    background-image: url('./images/blogbackground.png');
+    background-size:cover;
+    width: 100%;
+    height: fit-content;
+    border-radius: 50px;
+}
+.content-blog
+{
+    text-align: center;
+    padding-top: 10%;
+    gap: 50px;
+} 
+.content1
+{
+    display: flex;
+    padding: 1% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content1 p
+{
+    padding-top: 5%;
+    text-align: left;
+    padding-left: 12%;
+    font-size: 28px;
+}
+a
+{
+    text-decoration: none;
+}
+.readmore
+{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+}
+.right
+{
+    padding-left: unset;
+    padding-right: 5%;
+}
+.hidden
+{
+    opacity: 0;
+    transition: all 1s;
+}
+.show
+{
+    opacity: 1;
+}

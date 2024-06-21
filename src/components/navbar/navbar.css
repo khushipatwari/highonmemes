@@ -1,0 +1,53 @@
+nav  
+{
+    background-color: #FFDD80;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 5px;
+    height: 68px;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+nav .logo
+{
+    transition: width 2s, height 2s, transform 2s; 
+    margin: 15px 0px 0px 30px ;
+    cursor: pointer;
+}
+.menu 
+{
+    display: flex;
+    gap:40px;
+    margin: 0 40px;
+}
+.menu ul
+{
+    font-size: 14px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 4%;
+    font-family: sans-serif;
+    color: #080830;
+}
+
+button
+{
+    all: unset;
+    padding: 6px 16px;
+    background: #080830;
+    height: 32px;
+    color: antiquewhite;
+    font-weight: 500;
+    border-radius: 40px;
+}
+a
+{
+    text-decoration: none;
+}
+.menu li
+{
+    color: #080830;
+}
