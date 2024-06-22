@@ -10,16 +10,6 @@ const AuthenticationSignUp= () => {
   const navigate = useNavigate()
 
 
-  const[registered, setRegistered]= useState(false)
-  const handleClick =()=>
-    {
-      setRegistered(false)
-    }
-    const secondClick =() =>
-      {
-        setRegistered(true)
-      }
-
       const [input,setInput]= useState({
         first_name:"",
         last_name:"",
@@ -47,7 +37,7 @@ const AuthenticationSignUp= () => {
   <div className='authpage'> 
    <div className='full-form'>
     <form className="form" onSubmit={handleSubmit}>
-         <p className="title">Register </p> 
+         <p className="title-login">Register </p> 
      <div class="flex">
           <label>
               <input name="first_name" value={input.first_name} onChange={changeHandler} required="" placeholder="First Name" type="text" class="input"/>

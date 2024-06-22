@@ -16,12 +16,6 @@
     width: 30%;
     height: fit-content;
 }
-
-.icons 
-{
-    display: flex;
-    justify-content: space-evenly;
-}
 .form {
     display: flex;
     flex-direction: column;
@@ -33,7 +27,7 @@
     /* position: relative; */
   }
   
-  .title {
+  .title-login {
     font-size: 28px;
     color: royalblue;
     font-weight: 600;
@@ -44,7 +38,7 @@
     padding-left: 30px;
   }
   
-  .title::before,.title::after {
+  .title-login::before,.title-login::after {
     position: absolute;
     content: "";
     height: 16px;
@@ -54,13 +48,13 @@
     background-color: royalblue;
   }
   
-  .title::before {
+  .title-login::before {
     width: 18px;
     height: 18px;
     background-color: royalblue;
   }
   
-  .title::after {
+  .title-login::after {
     width: 18px;
     height: 18px;
     animation: pulse 1s linear infinite;

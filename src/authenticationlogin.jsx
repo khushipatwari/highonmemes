@@ -11,8 +11,6 @@ const AuthenticationLogin = () => {
 
 
       const [input,setInput]= useState({
-        // first_name:"",
-        // last_name:"",
         email:"",
         password:"",
       })
@@ -49,7 +47,7 @@ const AuthenticationLogin = () => {
    <div className='full-form'>
     <form className="form" onSubmit={handleLogin}>
     
-     <p className="title">Login</p>
+     <p className="title-login">Login</p>
    
         
     <label>
