@@ -25,7 +25,7 @@ const How = () => {
   >
     <h3 className="vertical-timeline-element-title">Campaign Management</h3>
 
-    <img src="./images/campaignmanagement.png" alt="" className='how-image' data-aos='zoom-in' />
+    <img src="./images/campaign-management.png" alt="" className='how-image' data-aos='zoom-in' />
     <p>
     Comprehensive campaign management, enabling easy monitor and tracking selected campaigns.
     </p>
@@ -40,7 +40,7 @@ const How = () => {
   >
     <h3 className="vertical-timeline-element-title">Insight Panel</h3>
 
-    <img src="./images/campaignmanagement.png" alt="" className='how-image' data-aos='zoom-in' />
+    <img src="./images/insight-panel.png" alt="" className='how-image' data-aos='zoom-in' />
     <p>
     Access a panel to view and analyze campaign data, complete with detailed graphs and statistics.
     </p>
@@ -54,7 +54,7 @@ const How = () => {
   >
     <h3 className="vertical-timeline-element-title">Show Creativity</h3>
 
-    <img src="./images/campaignmanagement.png" alt="" className='how-image' data-aos='zoom-in' />
+    <img src="./images/show-creativity.png" alt="" className='how-image' data-aos='zoom-in' />
     <p>
     Platform where creators showcase creativity with memes, reels, posts, boosting brand engagement.
     </p>
@@ -67,7 +67,7 @@ const How = () => {
     contentArrowStyle={{ borderRight: '7px solid  #DDF8E9' }}
   >
     <h3 className="vertical-timeline-element-title">Diversity</h3>
-    <img src="./images/campaignmanagement.png" alt="" className='how-image' data-aos='zoom-in' />
+    <img src="./images/discovery.png" alt="" className='how-image' data-aos='zoom-in' />
     <p>
     Explore diverse brand options across multiple categories, tailored to various preferences and needs
     </p>
