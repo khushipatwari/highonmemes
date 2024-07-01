@@ -12,6 +12,7 @@ const Data = [
                 age:'18+',
                 residency:'india',
             },
+            
             {
                 id:2,
                 title:'top',
