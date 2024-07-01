@@ -1,0 +1,87 @@
+.contactus-heading
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.contactus-container
+{
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 3%;
+    background-image: url('./images/contactusbackground.png');
+    background-position: center;
+    align-items: center;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+}
+.contactus-form-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.contactus-formsection
+{
+    padding-top: 3%;
+}
+.contactus-form-container input
+{
+    width: 90%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+    margin-top: 3%;
+    /* margin-bottom: 3%; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    box-shadow: 3px   rgba(112, 128, 144, 0.585);
+}
+.textarea
+{
+    width: 90%;
+    height: 200px;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    /* box-shadow: 3px 3px 2px 2px   rgba(112, 128, 144, 0.585); */
+}
+.filter-dropdown-content
+{
+    padding: 10px 10px 20px 10px;
+    width: 90%;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    box-shadow: 3px 3px 2px 2px   rgba(112, 128, 144, 0.585);
+    border-radius: 10px;
+}
+.seach-options:hover
+{
+    background-color: rgba(121, 121, 121, 0.512);
+}
+.seach-options
+{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1045px) {
+    .contactus-image
+    {
+        display: none;
+        background-position: top;
+    }
+}

@@ -1,32 +1,19 @@
 import React from 'react'
 import Mainpage from './mainpage.jsx'
-import Authenticationlogin from './authenticationlogin.jsx'
 import AOS from 'aos'
 import 'aos/dist/aos.css' 
-import Collaborationhub from './collaborationhub.jsx'
 import Navbar from './components/navbar/navbar.jsx'
 import { BrowserRouter, createBrowserRouter , RouterProvider, Routes,Route} from 'react-router-dom';
-import AuthenticationSignUp from './authenticationsignup.jsx'
+
+import Aboutus from './components/aboutus/aboutus.jsx'
+import Contactus from './components/contactus/contactus.jsx'
+import Brandpage from './brandpage.jsx'
+import Testimonials from './components/testimonials/testimonials.jsx'
 
 
 
 
-const App = () => {
-
-  // const router = createBrowserRouter([
-  //   {
-  //     path:'/',
-  //     element:<><Mainpage></Mainpage></>
-  //   },
-  //   { path:'/collaborationhub',
-  //     element:<><Collaborationhub></Collaborationhub></>
-  //   },
-  //   { 
-  //     path:'/authenticationlogin',
-  //     element:<><Authenticationlogin></Authenticationlogin></>
-  //   },
-  // ])
- 
+const App = () => { 
   return (
     <div>
 
@@ -34,10 +21,11 @@ const App = () => {
      {/* <Navbar></Navbar> */}
      <Routes>
       <Route path='/' element={<Mainpage></Mainpage>} />
-      {/* <Route path='/collaborationhub' element={<Collaborationhub></Collaborationhub>} /> */}
-      <Route path='/authenticationlogin' element={<Authenticationlogin></Authenticationlogin>} />
-      <Route path='/authenticationsignup' element={<AuthenticationSignUp></AuthenticationSignUp>} />
       <Route path='/mainpage' element={<Mainpage></Mainpage>} />
+      <Route path='/brandpage' element={<Brandpage></Brandpage>} />
+      <Route path='/aboutus' element={<Aboutus></Aboutus>}/>
+      <Route path='/contactus' element={<Contactus></Contactus>}/>
+      <Route path='/testimonials' element={<Testimonials></Testimonials>}/>
 
      </Routes>
      </BrowserRouter>

@@ -3,14 +3,15 @@
     margin-top: 5%;
     width: 100%;
     height: 400px;
-    background-color: #FC977F;
+    background-color: #0c0c0c7a;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
 }
 .footer-heading
 {
+    width: fit-content;
     font-size: 65px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(250, 250, 250);
@@ -36,4 +37,12 @@
 {
     margin: 3%;
 }
+@media screen  and (max-width:1045px){
+    .footer-heading
+    {
+        font-size: 50px;
+    }
+    
+}
+
 

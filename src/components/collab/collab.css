@@ -2,14 +2,14 @@
 {
     background-image: url('./images/collab.png');
     background-size:cover;
-    width: 99%;
+    width: 98%;
     height: 315px;
     border-radius: 50px;
-    margin: 6px;
+    margin: 1%;
 }
 .content
 {
-    padding-top: 4%;
+    padding-top: 7%;
     text-align: center;
     gap:5px;
     letter-spacing: 1px;
@@ -17,7 +17,7 @@
 .content h1
 {
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .content img
@@ -28,4 +28,18 @@
 a
 {
     text-decoration: none;
+}
+.collabimage
+{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+@media screen  and (max-width:1045px){
+    .content h1
+    {
+        padding-top: 8%;
+    }
+    
 }

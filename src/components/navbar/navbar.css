@@ -1,53 +1,113 @@
-nav  
-{
-    background-color: #FFDD80;
-    display: flex;
-    justify-content: space-between;
-    max-width: 100%;
-    margin: 5px;
-    height: 68px;
-    align-items: center;
-    border-radius: 30px;
-    
-}
-nav .logo
-{
-    transition: width 2s, height 2s, transform 2s; 
-    margin: 15px 0px 0px 30px ;
-    cursor: pointer;
-}
-.menu 
-{
-    display: flex;
-    gap:40px;
-    margin: 0 40px;
-}
-.menu ul
-{
-    font-size: 14px;
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    margin-top: 4%;
-    font-family: sans-serif;
-    color: #080830;
-}
 
 button
 {
-    all: unset;
-    padding: 6px 16px;
+    padding: 6px 25px;
     background: #080830;
-    height: 32px;
+    height: 45px;
     color: antiquewhite;
     font-weight: 500;
     border-radius: 40px;
+    border: 0px;
 }
-a
-{
-    text-decoration: none;
-}
-.menu li
-{
+.link{
     color: #080830;
+}
+.nav-bar
+{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+.nav-holder
+{
+    margin: 0 2rem;
+    color: antiquewhite ;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navitem
+{
+    width:80px;
+    font-size: 15px; 
+    color: #080830;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+}
+.navitem:hover{
+    background: rgba(128, 128, 128, 0.407);
+    color: #080830;
+}
+.nav-bar .nav-btn
+{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(11, 10, 10);
+    /* visibility: hidden; */
+    display: none;
+    opacity: 0;
+    font-size: 30px;
+}
+.logo-nav img
+{
+    padding-top: 10px;
+    width:200px;
+}
+
+@media screen  and (max-width:1045px) {
+    .nav-bar .nav-btn
+    {
+        /* visibility: visible; */
+        display: block;
+        opacity: 1;
+    }
+    .nav-bar .navsection
+    {
+        position: fixed;
+        top: 75px;
+        right: 5px;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color:  #fcfcfc;
+        transition: 0.5s;
+        transform: translateY(-100vh);
+        border-radius: 20px;
+    }
+    .nav-holder
+    {
+        flex-direction: column;
+    }
+    .navitem
+    {
+        width: 120px;
+        font-size: 20px;
+        color: #080830;
+    }
+    .nav-bar .responsive
+    {
+        transform: none;
+    }
+    .nav-bar .nav-close-btn
+    {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    
 }

@@ -1,0 +1,50 @@
+.container-collab-brand
+{
+    background-image: url('./images/collabbrand.png');
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    height: 315px;
+    border-radius: 50px;
+    margin:1%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-brand
+{
+    text-align: center;
+    gap:5px;
+    letter-spacing: 1px;
+}
+.content-brand h1 
+{
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-brand img
+{
+    position: relative;
+    padding-right: 10px;
+}
+a
+{
+    text-decoration: none;
+}
+.collabimage-brand
+{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+@media screen  and (max-width:1045px){
+    .container-collab-brand
+    {
+        background-image: none;
+        background-color: #ECE5FF;
+    }
+    
+}

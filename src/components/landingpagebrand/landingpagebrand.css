@@ -1,11 +1,11 @@
-.container-landingpage
+.brand-container-landingpage
 {
     align-items: center;
     justify-content: space-between;
     display: flex;
     max-width:99%;
     min-height: 89vh;
-    background-image: url("./images/landingpage.png");
+    background-image: url("./images/landingpagebrand.png");
     background-size: cover;
     margin: 5px;
     margin-right: 5px;
@@ -15,11 +15,11 @@ article
 {
     padding-left: 12%;
 }
-.landingpagedesign img
+.brandlandingpagedesign img
 {
     max-width:100% ;
 }
-article .title-landingpage
+article .brand-title-landingpage
 {
     margin-bottom: 20px;
     width: fit-content;
@@ -47,7 +47,7 @@ article button
 }
 
 @media screen and (max-width:1045px) { 
-    .container-landingpage
+    .brand-container-landingpage
     {
         display: block;
         /* text-align: center; */

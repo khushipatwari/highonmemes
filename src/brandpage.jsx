@@ -1,16 +1,15 @@
 import React from 'react'
 import './mainpage.css'
 import Navbar from './components/navbar/navbar'
-import Landingpage from './components/landing page/landingpage'
-import Features from './components/features/features'
-import Collab from './components/collab/collab'
 import Blog from './components/blog/blog'
 import Footer from './components/footer/footer'
 import Ourcommunity from './components/ourcommunity/ourcommunity'
-import How from './components/how/how'
 import Contactus from './components/contactus/contactus.jsx'
+import Gettingstarted from './components/gettingstarted/gettingstarted.jsx'
+import Landingpagebrand from './components/landingpagebrand/landingpagebrand.jsx'
+import Collabbrand from './components/collabbrand/collabbrand.jsx'
 
-const Mainpage = () => {
+const Brandpage = () => {
 
 
   
@@ -18,11 +17,10 @@ const Mainpage = () => {
     
     <div className='body'>
         <Navbar></Navbar>
-        <Landingpage></Landingpage>
-        <Features></Features>
+        <Landingpagebrand></Landingpagebrand>
         <Ourcommunity></Ourcommunity>
-        <How></How>
-        <Collab></Collab>
+        <Gettingstarted></Gettingstarted>
+        <Collabbrand></Collabbrand>
         <Blog></Blog>
         <Contactus></Contactus>
         <Footer></Footer>
@@ -32,4 +30,4 @@ const Mainpage = () => {
   )
 }
 
-export default Mainpage
+export default Brandpage

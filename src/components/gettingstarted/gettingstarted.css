@@ -1,0 +1,29 @@
+.getting-started-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.getting-started-heading h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 5%;
+}
+.image-box
+{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.image-box h4
+{
+    font-weight: 300;
+}
+@media screen  and (max-width:900px){
+
+    .getting-started-container
+    {
+        flex-direction: column;
+    }
+}

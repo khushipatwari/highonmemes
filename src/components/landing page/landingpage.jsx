@@ -16,7 +16,6 @@ const Landingpage = () => {
                 </h1>
                 <p>Collaborate with high-end brands, boost engagement,<br></br>
                 and increase earnings.</p>
-                <button> Collab</button>
             </article>
             <section className='landingpagedesign'>
                 <img src="./images/landingpagedesign.png" alt="" />

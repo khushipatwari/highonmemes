@@ -6,13 +6,19 @@ import 'aos/dist/aos.css'
 const Collab = () => {
 
   return (
-    <div className='container-collab' data-aos='fade-up'>
+    <div>
+      <div className='container-collab' data-aos='fade-up'>
         <div className='content'>
-            <h1>Start collaborating<br></br>
+            <h1 className='collab-heading'>Start collaborating<br></br>
             with amazing brands</h1>
             <img src="./images/spiralspring.png" alt="" />
-            <a><button>Collab</button></a>
+            <a><button>Join Us</button></a>
         </div>
+       
+    </div>
+    <div className='collabimage'>
+    <img src="./images/collabimage.png" alt="" />
+    </div>
     </div>
   )
 }
