@@ -68,7 +68,7 @@
 
 .founders-container
 {
-    background-image: url('./images/foundersbackgroundh.png');
+    background-image: url('../../assets/images/foundersbackgroundh.png');
     background-repeat: no-repeat;
     background-position: center;
      display: flex;

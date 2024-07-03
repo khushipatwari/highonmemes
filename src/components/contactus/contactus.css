@@ -11,7 +11,7 @@
     width: 100%;
     padding: 1%;
     margin-bottom: 3%;
-    background-image: url('./images/contactusbackground.png');
+    background-image: url('../../assets/images/contactusbackground.png');
     background-position: center;
     align-items: center;
     /* background-size: contain;

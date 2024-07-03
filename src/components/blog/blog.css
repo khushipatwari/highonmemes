@@ -1,6 +1,6 @@
 .container-blog
 {
-    background-image: url('./images/blogbackground.png');
+    background-image: url('../../assets/images/blogbackground.png');
     background-size:cover;
     width: 100%;
     height: fit-content;
