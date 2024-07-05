@@ -15,10 +15,10 @@ let year = date.getFullYear()
         <p>© {year} Highonmemes.com. All rights reserved.</p></h1>
         </div>
         <div className='social-links'>
-            <img src="./images/Facebook.png" alt="" />
-            <img src="./images/instagram.png" alt="" />
-            <img src="./images/Linkedin.png" alt="" />
-            <img src="./images/twitter.png" alt="" />
+            <a href=""><img src="./images/Facebook.png" alt="" /></a>
+            <a href=""><img src="./images/instagram.png" alt="" /></a>
+            <a href="https://www.linkedin.com/company/highonmemes/"><img src="./images/Linkedin.png" alt="" /></a>
+            <a href=""><img src="./images/twitter.png" alt="" /></a>
         </div>
     </div>
   )
