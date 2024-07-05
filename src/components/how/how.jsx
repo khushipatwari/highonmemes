@@ -19,7 +19,7 @@ const How = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element"
     contentStyle={{ background: '#ECE5FF', color: 'black'  , display:'flex',flexDirection:'column',alignItems:'center', borderRadius:'7%'}}
-    contentArrowStyle={{ borderRight: '7px solid  #ECE5FF' }
+    contentArrowStyle={{ borderRight: '7px solid  #ECE5FF' }}
     iconStyle={{ background: '#ECE5FF', color: 'black'}}
   >
     <h3 className="vertical-timeline-element-title">Campaign Management</h3>
