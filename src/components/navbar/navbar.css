@@ -102,6 +102,7 @@ button
     .nav-bar .responsive
     {
         transform: none;
+        z-index:10;
     }
     .nav-bar .nav-close-btn
     {
