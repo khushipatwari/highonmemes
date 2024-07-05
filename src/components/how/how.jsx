@@ -19,8 +19,7 @@ const How = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element"
     contentStyle={{ background: '#ECE5FF', color: 'black'  , display:'flex',flexDirection:'column',alignItems:'center', borderRadius:'7%'}}
-    contentArrowStyle={{ borderRight: '7px solid  #ECE5FF' }}
-    date="2010 - 2011"
+    contentArrowStyle={{ borderRight: '7px solid  #ECE5FF' }
     iconStyle={{ background: '#ECE5FF', color: 'black'}}
   >
     <h3 className="vertical-timeline-element-title">Campaign Management</h3>
@@ -33,7 +32,6 @@ const How = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2010 - 2011"
     iconStyle={{ background: '#FFC4CA', color: '#fff' }}
     contentStyle={{ background: '#FFC4CA', color: 'black' , display:'flex',flexDirection:'column',alignItems:'center', borderRadius:'7%' }}
     contentArrowStyle={{ borderRight: '7px solid  #FFC4CA' }}
@@ -47,7 +45,6 @@ const How = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2008 - 2010"
     iconStyle={{ background: '#FFF1CC', color: '#fff' }}
     contentStyle={{ background: '#FFF1CC', color: 'black' , display:'flex',flexDirection:'column',alignItems:'center', borderRadius:'7%'}}
     contentArrowStyle={{ borderRight: '7px solid  #FFF1CC' }}
@@ -61,7 +58,6 @@ const How = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2006 - 2008"
     iconStyle={{ background: '#DDF8E9', color: '#fff' }}
     contentStyle={{ background: '#DDF8E9', color: 'black', display:'flex',flexDirection:'column',alignItems:'center', borderRadius:'7%'}}
     contentArrowStyle={{ borderRight: '7px solid  #DDF8E9' }}
