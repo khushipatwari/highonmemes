@@ -6,6 +6,7 @@ const Landingpagebrand = () => {
   
   return (
     <div>
+        
         <div className='brand-container-landingpage'>
             <article>
                 <h1 className='brand-title-landingpage'> Drive collaboration<br></br>
