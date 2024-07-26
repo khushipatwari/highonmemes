@@ -13,14 +13,14 @@ const Testimonials = () => {
         <div className="cards-container">
             <div className="card-container">
                 <div className="main-section">
-                    <p>"I love that new customers are coming to our brand organically because of Creator.co's 
-                        campaigns. We partnered with creators who were familiar with our products and genuinely
-                         wanted to share our products with their friends,family, and community."
+                    <p>"Partnering with High On Memes has significantly boosted our campaign reach and engagement.
+                         The AI-driven insights and performance-based model have been game changers for our
+                          marketing strategy"
                     </p>
                 </div>
                 <div className="names-section">
                     <div className="brand-circle"></div>
-                    <div className="names">Brittany Alfinito</div>
+                    {/* <div className="names"></div> */}
                 </div>
             </div>
             <div className="card-container">
@@ -32,19 +32,18 @@ const Testimonials = () => {
                 </div>
                 <div className="names-section">
                     <div className="brand-circle"></div>
-                    <div className="names">Brittany Alfinito</div>
+                    {/* <div className="names">Brittany Alfinito</div> */}
                 </div>
             </div>
             <div className="card-container">
                 <div className="main-section">
-                    <p>"I love that new customers are coming to our brand organically because of Creator.co's 
-                        campaigns. We partnered with creators who were familiar with our products and genuinely
-                         wanted to share our products with their friends,family, and community."
+                    <p>"The detailed analytics provided by High On Memes helped us fine-tune our campaigns and 
+                        achieve better results than ever before."
                     </p>
                 </div>
                 <div className="names-section">
                     <div className="brand-circle"></div>
-                    <div className="names">Brittany Alfinito</div>
+                    {/* <div className="names">Brittany Alfinito</div> */}
                 </div>
             </div>
         </div>
